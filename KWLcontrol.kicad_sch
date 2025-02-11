@@ -5,47 +5,50 @@
 	(uuid "4fb2b777-e625-4fb4-a25a-05d46bd9d657")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Pin"
+		(symbol "2025-02-11_15-19-27:2059-323_998-403"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 8.89 6.35 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "2059-323/998-403"
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "CONN3_2059-323/998-403_WAG"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "2059-323/998-403"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -62,7 +65,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "connector"
+			(property "ki_keywords" "2059-323/998-403"
 				(at 0 0 0)
 				(effects
 					(font
@@ -71,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "CONN3_2059-323/998-403_WAG"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,13 +83,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Pin_1_1"
+			(symbol "2059-323_998-403_1_1"
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy 5.08 -15.24) (xy 12.7 -15.24)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -95,10 +98,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+						(xy 5.08 2.54) (xy 5.08 -15.24)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -107,53 +110,350 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy 7.62 -10.16) (xy 7.62 -12.7)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 -7.62)
+					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 7.62 -2.54)
+					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 5.08 -12.7)
+					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 8.89 -13.5467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 8.89 -11.8533)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 8.89 -11.0067)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 8.89 -9.3133)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -15.24) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -12.7)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -10.16)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -7.62)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -5.08)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 0)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -168,10 +468,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -186,10 +486,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "2_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -197,6 +497,536 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "2_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "3_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "3_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "2059-323_998-403_1_2"
+				(polyline
+					(pts
+						(xy 5.08 -15.24) (xy 12.7 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 7.62 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 5.08 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 8.89 -13.5467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 8.89 -11.8533)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 8.89 -11.0067)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 8.89 -9.3133)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -15.24) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -12.7)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -10.16)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -7.62)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -5.08)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 0)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "2_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "2_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "3_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "3_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3383,6 +4213,12 @@
 		)
 	)
 	(junction
+		(at 36.83 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07f0c35e-c436-4a8d-a54f-797df2382acc")
+	)
+	(junction
 		(at 171.45 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3393,6 +4229,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d096be2-cbc3-4a6e-8c36-d7bc1e4656b6")
+	)
+	(junction
+		(at 36.83 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c5dfe96-bf6e-455a-b069-25f3bc2e6b7f")
 	)
 	(junction
 		(at 38.1 76.2)
@@ -3473,6 +4315,12 @@
 		(uuid "ae735aea-81cf-4783-8873-f0b69140784e")
 	)
 	(junction
+		(at 36.83 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5716bce-d40e-40c7-a583-2fc3496d8d40")
+	)
+	(junction
 		(at 63.5 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3550,6 +4398,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 50.8) (xy 36.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8c7b2f-c250-4ba6-ad05-d764abdc6268")
+	)
+	(wire
+		(pts
 			(xy 232.41 31.75) (xy 243.84 31.75)
 		)
 		(stroke
@@ -3610,13 +4468,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 53.34) (xy 43.18 53.34)
+			(xy 33.02 53.34) (xy 36.83 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33fb4a12-e875-4a09-915d-577708343d41")
+		(uuid "3ae8ade9-677f-4a5e-9ada-542ec91b0ca4")
 	)
 	(wire
 		(pts
@@ -3637,6 +4495,16 @@
 			(type default)
 		)
 		(uuid "41fb80fa-72de-4a0e-89aa-b04cf0bf3e3e")
+	)
+	(wire
+		(pts
+			(xy 36.83 55.88) (xy 77.47 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48aa4d32-a791-4c19-a239-5a4a39aa5cd1")
 	)
 	(wire
 		(pts
@@ -3680,16 +4548,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 53.34) (xy 43.18 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52db7d34-94b8-4a21-a837-db55f0794ee5")
-	)
-	(wire
-		(pts
 			(xy 88.9 118.11) (xy 86.36 118.11)
 		)
 		(stroke
@@ -3697,16 +4555,6 @@
 			(type default)
 		)
 		(uuid "53ed1ca8-8621-4947-9664-48f0e95ec8bb")
-	)
-	(wire
-		(pts
-			(xy 43.18 45.72) (xy 67.31 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55c4d71e-b9d3-4da1-b441-4d30b7bf963e")
 	)
 	(wire
 		(pts
@@ -3760,6 +4608,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 55.88) (xy 36.83 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f9fa41-c6fc-4178-bb80-0744e483821d")
+	)
+	(wire
+		(pts
 			(xy 171.45 87.63) (xy 180.34 87.63)
 		)
 		(stroke
@@ -3777,6 +4635,16 @@
 			(type default)
 		)
 		(uuid "6d1ed82d-02f0-4e29-84bb-de20c1b91a85")
+	)
+	(wire
+		(pts
+			(xy 36.83 58.42) (xy 36.83 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffb40f5-f4fd-4e62-bb59-6a1139df76a6")
 	)
 	(wire
 		(pts
@@ -3990,16 +4858,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 50.8) (xy 67.31 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9ac18f2-693f-401c-8f5b-dc073fb84eb3")
-	)
-	(wire
-		(pts
 			(xy 46.99 118.11) (xy 63.5 118.11)
 		)
 		(stroke
@@ -4007,16 +4865,6 @@
 			(type default)
 		)
 		(uuid "b07858e9-951f-43ae-b08f-016ef16fe5f1")
-	)
-	(wire
-		(pts
-			(xy 43.18 55.88) (xy 77.47 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1f87821-069d-4e0e-97c4-b6efaf92bca4")
 	)
 	(wire
 		(pts
@@ -4030,6 +4878,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 50.8) (xy 67.31 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4e8cce-417b-4bf9-880d-0280e0664780")
+	)
+	(wire
+		(pts
 			(xy 104.14 76.2) (xy 113.03 76.2)
 		)
 		(stroke
@@ -4040,6 +4898,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 58.42) (xy 36.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62ddba1-c4e3-4014-93ec-6306cd95a443")
+	)
+	(wire
+		(pts
 			(xy 63.5 128.27) (xy 66.04 128.27)
 		)
 		(stroke
@@ -4047,16 +4915,6 @@
 			(type default)
 		)
 		(uuid "cc995790-817f-4f57-8323-0bbfd726fa2e")
-	)
-	(wire
-		(pts
-			(xy 43.18 45.72) (xy 43.18 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd7d97ca-5c9e-4f2b-a83a-f50e8ad63040")
 	)
 	(wire
 		(pts
@@ -4140,6 +4998,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 48.26) (xy 36.83 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a70e63-ad24-4606-97bc-34b7b24e3302")
+	)
+	(wire
+		(pts
 			(xy 87.63 45.72) (xy 101.6 45.72)
 		)
 		(stroke
@@ -4220,6 +5088,26 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 53.34) (xy 36.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca50892-cbda-41d3-9bd6-72410cb299e5")
+	)
+	(wire
+		(pts
+			(xy 36.83 48.26) (xy 36.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05521fa-1655-445f-8726-91b48c6c2389")
+	)
+	(wire
+		(pts
 			(xy 104.14 118.11) (xy 113.03 118.11)
 		)
 		(stroke
@@ -4237,6 +5125,16 @@
 			(type default)
 		)
 		(uuid "f1998204-151d-4d38-a433-fa3837cc29f6")
+	)
+	(wire
+		(pts
+			(xy 36.83 45.72) (xy 67.31 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2951c8d-9dfe-40ec-9d52-f8e40816f0db")
 	)
 	(wire
 		(pts
@@ -4260,7 +5158,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 48.26) (xy 38.1 48.26)
+			(xy 33.02 45.72) (xy 36.83 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5129,6 +6027,88 @@
 			(project "KWLcontrol"
 				(path "/4fb2b777-e625-4fb4-a25a-05d46bd9d657"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-02-11_15-19-27:2059-323_998-403")
+		(at 33.02 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2add738d-4739-4eeb-9d5d-445cab946b9a")
+		(property "Reference" "J4"
+			(at 24.13 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "2059-323/998-403"
+			(at 24.13 40.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "KWLcontrol:CONN3_2059-323&slash_998-403_WAG"
+			(at 33.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2059-323/998-403"
+			(at 33.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8e6a4574-ad50-4f7a-ac51-be16ee31f756")
+		)
+		(pin "3"
+			(uuid "b10d855d-d393-4022-acf0-89977b5534fd")
+		)
+		(pin "6"
+			(uuid "5006cb9e-1c1f-4ecc-b67a-61b4f5866cc3")
+		)
+		(pin "1"
+			(uuid "a57189fb-8e12-4ef3-b12f-56d527f28214")
+		)
+		(pin "5"
+			(uuid "e9c87360-f718-4c69-b726-1e2414bf4c89")
+		)
+		(pin "2"
+			(uuid "916ffc78-9a95-43ab-9b96-223a47a4ac04")
+		)
+		(instances
+			(project ""
+				(path "/4fb2b777-e625-4fb4-a25a-05d46bd9d657"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7937,77 +8917,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 33.02 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5d66d63-eec5-4916-8603-00056f3959fe")
-		(property "Reference" "J1"
-			(at 33.655 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 33.655 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_3-GF-3.81_1x03_P3.81mm_Horizontal_ThreadedFlange_MountHole"
-			(at 33.02 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 33.02 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6d3fa4d1-d24e-4caa-b59f-7b203cb1469c")
-		)
-		(pin "2"
-			(uuid "c5b9044f-f813-4f2f-8fce-62c5d18b689d")
-		)
-		(pin "1"
-			(uuid "2d5670f7-e653-4dcf-85cc-e260dd03ebcc")
-		)
-		(instances
-			(project ""
-				(path "/4fb2b777-e625-4fb4-a25a-05d46bd9d657"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 260.35 87.63 90)
 		(unit 1)
@@ -9220,15 +10129,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 248.92 34.29 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb0b501b-cca3-499f-bf0d-af88f199a470")
 		(property "Reference" "J2"
-			(at 250.19 33.0199 0)
+			(at 250.19 35.5601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9237,7 +10146,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 250.19 35.5599 0)
+			(at 250.19 33.0201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9245,7 +10154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical"
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_3-G-3.81_1x03_P3.81mm_Horizontal"
 			(at 248.92 34.29 0)
 			(effects
 				(font

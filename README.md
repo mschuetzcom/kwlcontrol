@@ -1,6 +1,6 @@
 # kwlcontrol
 
-![alt text](export/v2/top.png)
-![alt text](export/v2/bottom.png)
-![alt text](export/v2/topright.png)
+![alt text](export/top.png)
+![alt text](export/bottom.png)
+![alt text](export/topright.png)
 

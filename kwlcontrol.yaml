@@ -1,0 +1,61 @@
+esphome:
+  name: kwlcontrol
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: "1234" # TODO put your password here
+
+ota:
+  - platform: esphome
+    password: "1234" # TODO put your password here
+
+wifi:
+  ssid: "XXXX"  # TODO put your password here
+  password: "XXXXXXXX"  # TODO put your password here
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "KWLcontrol Fallback Hotspot"
+    password: "12341234" # TODO put your password here
+
+captive_portal:
+   
+output:
+  - platform: ledc
+    pin: GPIO4
+    id: luefter_pwm
+    frequency: 2500Hz
+
+fan:
+  - platform: speed
+    output: luefter_pwm
+    name: "KWL control"
+    speed_count: 100  # Schrittfaktor von 100 für feinere Steuerung
+
+i2c:
+  sda: GPIO22
+  scl: GPIO21
+  scan: true
+  id: bus_a
+
+sensor:
+  - platform: bme680
+    temperature:
+      name: "KWLcontrol Temperature"
+    pressure:
+      name: "KWLcontrol Pressure"
+    humidity:
+      name: "KWLcontrol Humidity"
+    gas_resistance:
+      name: "KWLcontrol Gas Resistance"
+    i2c_id: bus_a
+    address: 0x77
+    update_interval: 10s

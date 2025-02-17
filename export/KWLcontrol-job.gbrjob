@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.6"
     },
-    "CreationDate": "2025-02-11T20:42:12+01:00"
+    "CreationDate": "2025-02-17T14:25:19+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -28,8 +28,8 @@
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.2,
-      "TrackToRegion": 0.25,
-      "RegionToRegion": 0.25
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
@@ -51,11 +51,6 @@
     {
       "Path": "KWLcontrol-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "KWLcontrol-F_Silkscreen.gbr",
-      "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
